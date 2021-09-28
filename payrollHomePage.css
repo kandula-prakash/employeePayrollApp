@@ -1,0 +1,98 @@
+/* Page Header */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 80px);
+    background-color: #eee;
+    padding: 30px 0 10px;
+    box-sizing: border-box;
+  }
+  .sub-main-content {
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
+  .emp-detail-text {
+    font: normal normal 500 24px/25px Roboto;
+    color: #42515f;
+  }
+  .emp-count {
+    background-color: #82a70c;
+    color: #ffffff;
+    border-radius: 2rem;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 0.75rem;
+  }
+  /* Button */
+  .add-button {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .add-button:hover {
+    background-color: #82a70c !important;
+    color: whitesmoke;
+  }
+  /* Table */
+  .table-main {
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px;
+  }
+  th {
+    background: #42515f;
+    text-align: left;
+    font: normal normal 18px Roboto;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0.75rem 0;
+  }
+  tr:not(:first-child) {
+    background: #ffffff;
+    border-radius: 3px;
+    border-bottom: 2px solid #d8d8d8;
+  }
+  tr:first-child th:first-child {
+    padding-left: 1.5rem;
+  }
+  td {
+    font: normal normal normal 14px/21px Roboto;
+    color: #3d3d3d;
+    padding: 5px 8px;
+    text-align: left;
+  }
+  td:first-child {
+    display: flex;
+    align-items: center;
+  }
+  td img:first-child {
+    margin-left: 1rem;
+  }
+  td img {
+    cursor: pointer;
+  }
+  .dept-label {
+    background-color: #e9fea5;
+    border-radius: 2rem;
+    padding: 1px 7px;
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 300;
+    margin-bottom: 8px;
+  }
+  /* Action buttons */
+  .action-group img:first-child {
+    margin-right: 0.75rem;
+    margin-left: 0;
+  }
